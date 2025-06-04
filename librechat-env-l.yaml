@@ -2129,19 +2129,4 @@ endpoints:
       summaryModel: "grok-beta"
       forcePrompt: false
       modelDisplayLabel: "Grok"
-
-        #    - name: "Cerebras"
-        #      apiKey: "${CEREBRAS_API_KEY}"
-        #      baseURL: "https://api.cerebras.ai/v1"
-        #      models:
-        #        default:
-        #          - Llama-4-Scout
-        #          - Llama-3.1-8B
-        #          - Llama-3.3-70B
-        #          - DeepSeek-R1-Distill-Llama-70B
-        #          - Qwen-3-32B
-        #        fetch: true
-        #      titleConvo: true
-        #      titleModel: "Llama-3.1-8B"
-        #      summarize: false
-        #      modelDisplayLabel: "Cerebras"
+       
