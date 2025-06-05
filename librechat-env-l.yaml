@@ -12,8 +12,8 @@ registration:
 
 balance:
   enabled: true                
-  startBalance: 20000          
-  autoRefillEnabled: false    
+  startBalance: 100000          
+  autoRefillEnabled: true    
   
 rateLimits:
   fileUploads:
@@ -39,6 +39,7 @@ rateLimits:
     ipWindowInMinutes: 1
     userMax: 50              
     userWindowInMinutes: 1
+
 endpoints:
   custom:   
     # groq
