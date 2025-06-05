@@ -67,9 +67,9 @@ endpoints:
           - playai-tts-arabic
           - qwen-qwq-32b
         fetch: false
-        tokenCost:
-          input: 0
-          output: 0
+      tokenCost:
+        input: 0.05
+        output: 0.15
       titleConvo: true
       titleModel: "mixtral-8x7b-32768"
       modelDisplayLabel: "groq"
@@ -88,9 +88,9 @@ endpoints:
           - "llama-3.3-70b"
           - "qwen-3-32b"         
         fetch: false
-        tokenCost:
-          input: 0
-          output: 0
+      tokenCost:
+        input: 0.05
+        output: 0.15
       titleConvo: true
       titleModel: "llama-4-scout-17b-16e-instruct" 
       summarize: false      
