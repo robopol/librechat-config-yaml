@@ -10,6 +10,35 @@ registration:
     - "google"
     - "openid"
 
+balance:
+  enabled: true                
+  startBalance: 20000          
+  autoRefillEnabled: false    
+  
+rateLimits:
+  fileUploads:
+    ipMax: 50                
+    ipWindowInMinutes: 60
+    userMax: 25              
+    userWindowInMinutes: 60
+  
+  conversationsImport:
+    ipMax: 20                
+    ipWindowInMinutes: 60
+    userMax: 10              
+    userWindowInMinutes: 60
+
+  stt: # Limity pre speech-to-text
+    ipMax: 100               
+    ipWindowInMinutes: 1
+    userMax: 50              
+    userWindowInMinutes: 1
+
+  tts: # Limity pre text-to-speech
+    ipMax: 100               
+    ipWindowInMinutes: 1
+    userMax: 50              
+    userWindowInMinutes: 1
 endpoints:
   custom:   
     # groq
