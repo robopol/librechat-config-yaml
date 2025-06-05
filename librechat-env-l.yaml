@@ -704,9 +704,6 @@ endpoints:
         fetch: false 
       titleConvo: true
       titleModel: "llama-4-scout-17b-16e-instruct" 
-      summarize: false 
-      
+      summarize: false      
       forcePrompt: false 
-      modelDisplayLabel: "Cerebras" 
-     
-      iconURL: "https://raw.githubusercontent.com/danny-avila/LibreChat/main/client/src/assets/cerebras.svg"
+      modelDisplayLabel: "Cerebras"
