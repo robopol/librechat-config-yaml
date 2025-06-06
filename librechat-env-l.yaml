@@ -49,9 +49,6 @@ endpoints:
       baseURL: "https://api.groq.com/openai/v1/"
       models:
         default:
-          - allam-2-7b
-          - compound-beta
-          - compound-beta-mini
           - deepseek-r1-distill-llama-70b
           - gemma2-9b-it
           - llama-3.1-8b-instant
@@ -60,8 +57,7 @@ endpoints:
           - llama3-70b-8192
           - llama3-8b-8192
           - meta-llama/llama-4-maverick-17b-128e-instruct
-          - meta-llama/llama-4-scout-17b-16e-instruct
-          - meta-llama/llama-guard-4-12b
+          - meta-llama/llama-4-scout-17b-16e-instruct          
           - mistral-saba-24b
           - playai-tts
           - playai-tts-arabic
@@ -71,10 +67,8 @@ endpoints:
         input: 0.0
         output: 0.0
       titleConvo: true
-      titleModel: "mixtral-8x7b-32768"
-      modelDisplayLabel: "groq"
-    
-    
+      titleModel: "deepseek-r1-distill-llama-70b"
+      modelDisplayLabel: "groq"    
 
     # Cerebras
     # https://cerebras.ai/api
@@ -83,6 +77,7 @@ endpoints:
       baseURL: "https://api.cerebras.ai/v1"
       models:
         default:
+          - "deepseek-r1-distill-llama-70b"
           - "llama-4-scout-17b-16e-instruct"
           - "llama3.1-8b"
           - "llama-3.3-70b"
@@ -92,7 +87,7 @@ endpoints:
         input: 0.0
         output: 0.0
       titleConvo: true
-      titleModel: "llama-4-scout-17b-16e-instruct" 
+      titleModel: "qwen-3-32b" 
       summarize: false      
       forcePrompt: false 
       modelDisplayLabel: "Cerebras"
