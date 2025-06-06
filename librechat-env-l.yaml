@@ -76,8 +76,7 @@ endpoints:
       apiKey: "${CEREBRAS_API_KEY}"
       baseURL: "https://api.cerebras.ai/v1"
       models:
-        default:
-          - "deepseek-r1-distill-llama-70b"
+        default:          
           - "llama-4-scout-17b-16e-instruct"
           - "llama3.1-8b"
           - "llama-3.3-70b"
